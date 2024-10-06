@@ -1,0 +1,199 @@
+/* Custom Styles */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-section h1 {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  
+  .hero-section p {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  #personal-financial-banner {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow */
+  }
+  
+  #personal-financial-banner .breadcrumb {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+  }
+  
+  #personal-financial-banner h1 {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #personal-financial-banner p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+  }
+/* Default image for larger screens */
+#personal-financial-banner {
+    background-image: url('images/bn2.png'); /* Desktop image */
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    color: white;
+  }
+  
+  /* Image for mobile screens */
+  @media (max-width: 768px) {
+    #personal-financial-banner {
+      background-image: url('images/bn2mobile.png'); /* Mobile image */
+      height: 50vh;
+    }
+  }
+  #investment-goals {
+    background-color: #f8f9fa; /* Light grey background for section */
+    padding: 40px 0;
+  }
+  
+  #investment-goals h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  #investment-goals p {
+    font-size: 1.1rem;
+  }
+  
+  #investment-goals ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #investment-goals ul li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+  }
+  
+  #investment-goals ul li strong {
+    color: #007bff; /* Highlight the key services */
+  }
+
+  #partner-trust {
+    background-color: #fff; /* Clean white background */
+    color: #333; /* Darker text for readability */
+    padding: 50px 0;
+  }
+  
+  #partner-trust h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  
+  #partner-trust p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  #partner-trust strong {
+    color: #007bff; /* Highlight the award with blue color */
+  }
+
+  #wealth-planning {
+    background-color: #f8f9fa; /* Soft light grey background */
+    padding: 50px 0;
+  }
+  
+  #wealth-planning h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333; /* Dark text for clarity */
+  }
+  
+  #wealth-planning p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  #wealth-planning p.lead {
+    font-weight: 400;
+  }
+
+  #private-banking {
+    background-color: #fff; /* White background for a clean look */
+    padding: 60px 0;
+  }
+  
+  #private-banking h2 {
+    font-size: 2.5rem; /* Large font size for the heading */
+    font-weight: 400;
+    color: #333; /* Dark text for readability */
+  }
+  
+  .btn-explore {
+    background-color:  #2f2974; /* Bright green for the button */
+    color: #fff; /* White text on the button */
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 30px; /* Rounded button */
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .btn-explore:hover {
+    background-color: #20e2a0; /* Darker green on hover */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #services {
+    background-color: #f9f9f9; /* Light background color for contrast */
+    padding: 60px 0;
+  }
+  
+  #services h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  #services p {
+    color: #666; /* Dark gray text */
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  #services img {
+    width: 60px; /* Adjust size of icons */
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  #team .team-member img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  #team .team-member h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  #team .team-member p {
+    margin-bottom: 5px;
+  }
+  
+  #team .team-member .location {
+    font-style: italic;
+    color: #a6a6a6;
+  }
+  

@@ -1,0 +1,55 @@
+#wealth-planning {
+    background-color: #f7f8fa; /* Light grey background for the entire section */
+  }
+  
+  #wealth-planning h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  #wealth-planning h3 {
+    margin-top: 30px;
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  
+  #wealth-planning p.lead {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  #wealth-planning img {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 100%; /* Ensure image takes full column width */
+  }
+  .services-section {
+    background-color: #fff;
+}
+
+.services-section .icon img {
+    width: 50px; /* Adjust size as per your icon */
+}
+
+.services-section h4 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.services-section p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.services-section .learn-more {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #d69359; /* Adjust color if needed */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.services-section .learn-more:hover {
+    text-decoration: underline;
+}
